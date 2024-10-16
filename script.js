@@ -78,5 +78,5 @@ function fetchDocData() {
 }
 // Initial call to fetch data
 fetchDocData();
-// Set up interval to fetch data every 30 minutes
-setInterval(fetchDocData, 1800000); // 1800000 milliseconds = 30 minutes
+// Set up interval to fetch data every 5 minutes
+setInterval(fetchDocData, 300000); // 300000 milliseconds = 5 minutes
